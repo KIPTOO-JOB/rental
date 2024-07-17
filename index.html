@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<main>
+			<section>
+				<header class="header">
+					<nav class="navbar">
+						<div class="logo">
+							<h2 class="logo-heading">
+								<a class="links-logo" href="#home"> KEJANI <span>🏠</span></a>
+							</h2>
+						</div>
+						<div class="hamburger" id="hamburger">
+							<i class="fas fa-bars hamburger-icon"></i>
+							<i class="fas fa-times cross-icon"></i>
+						</div>
+						<div class="menu">
+							<ul class="menu-list">
+								<li class="menu-list-items">
+									<a class="links" href="#home"> Home </a>
+								</li>
+
+								<li class="menu-list-items">
+									<a class="links" href="#services"> Services </a>
+								</li>
+								<li class="menu-list-items">
+									<a class="links" href="#houses"> Houses </a>
+								</li>
+								<li class="menu-list-items">
+									<a class="links" href="#contact"> Contact Me </a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</header>
+			</section>
+			<section id="home" class="hero">
+				<div class="intro">
+					<div class="headings">
+						<h3 class="greet-heading">Hello, Welcome to Kejani</h3>
+
+						<h4 class="sub-heading">
+							Get Your Self a Nice <span>Place To Stay</span>
+						</h4>
+					</div>
+					<div class="intro-buttons">
+						<button class="btn common-btn">
+							<a href=""> Tenant </a>
+						</button>
+						<button class="btn ghost-btn" id="landlordButton">LandLord</button>
+					</div>
+				</div>
+			</section>
+			<section class="form">
+				<form action="" id="landlordForm">
+					<input
+						type="text"
+						placeholder="Rental Name "
+						required
+						id="rentalName"
+					/>
+					<input type="text" placeholder="Deal" required id="rentalDeal" />
+					<input type="text" placeholder="Type" required id="rentalType" />
+					<input type="number" placeholder="rooms" required id="rentalRooms" />
+					<input
+						type="text"
+						placeholder="District"
+						required
+						id="rentalDistrict"
+					/>
+					<input type="number" placeholder="Price" required id="rentalPrice" />
+					<input type="text" placeholder="Photo" required id="rentalPhoto" />
+					<button type="submit" class="btn-form">
+						Submit Your Real Estate
+					</button>
+				</form>
+			</section>
+			<section class="rental">
+				<div id="district"></div>
+			</section>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>

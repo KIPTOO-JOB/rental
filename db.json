@@ -1,0 +1,161 @@
+{
+  "district": [
+    {
+      "id_district": "1",
+      "name": "América",
+      "id": "3928"
+    },
+    {
+      "id_district": "2",
+      "name": "Centro",
+      "id": "8743"
+    },
+    {
+      "id_district": "3",
+      "name": "Costa e Silva",
+      "id": "26c2"
+    }
+  ],
+  "property": [
+    {
+      "id": "1",
+      "title": "Casa com Piscina",
+      "deal": "sale",
+      "type": "house",
+      "bed": "4",
+      "district": "Centro",
+      "price": "R$ 2.600.000",
+      "photo": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520011556/chatbot-imoveis/casa-centro.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Casa Costa e Silva",
+      "deal": "sale",
+      "type": "house",
+      "bed": "3",
+      "district": "Costa e Silva",
+      "price": "R$ 280.000",
+      "photo": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
+    },
+    {
+      "id": "3",
+      "title": "AP América",
+      "deal": "sale",
+      "type": "ap",
+      "bed": "2",
+      "district": "América",
+      "price": "R$ 460.000",
+      "photo": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
+    },
+    {
+      "id": "4",
+      "title": "AP Centro",
+      "deal": "rent",
+      "type": "ap",
+      "bed": "2",
+      "district": "Centro",
+      "price": "R$ 1.200",
+      "photo": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
+    },
+    {
+      "id": "bf49",
+      "title": "wajose",
+      "deal": "On sale",
+      "type": "Appatment",
+      "bed": "32",
+      "district": "Nairobi",
+      "price": "321121242432",
+      "photo": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG91c2V8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "e1a9",
+      "title": "wajose",
+      "deal": "On sale",
+      "type": "Appatment",
+      "bed": "212",
+      "district": "Nairobi",
+      "price": "900000000",
+      "photo": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG91c2V8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "8b1f",
+      "title": "TSAVO",
+      "deal": "On sale",
+      "type": "Appatment",
+      "bed": "6",
+      "district": "Nairobi",
+      "price": "54",
+      "photo": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG91c2V8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "e8f2",
+      "title": "wajose",
+      "deal": "On sale",
+      "type": "Appatment",
+      "bed": "2",
+      "district": "Nakuru",
+      "price": "212",
+      "photo": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdXNlfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "6fce",
+      "title": "mak gg ",
+      "deal": "sold",
+      "type": "Appatment",
+      "bed": "21",
+      "district": "kiambu",
+      "price": "566",
+      "photo": "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdXNlfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "4caf",
+      "title": "mak gg ",
+      "deal": "sold",
+      "type": "Appatment",
+      "bed": "32",
+      "district": "kiambu",
+      "price": "12",
+      "photo": "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdXNlfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "8b64",
+      "title": "Wooooza",
+      "deal": "On sale",
+      "type": "Appatment",
+      "bed": "32",
+      "district": "Turkana",
+      "price": "3232",
+      "photo": "https://images.unsplash.com/photo-1529589585661-8fb5cdc75c48?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNvbWUlMjBkYXJrJTIwZ3JhZGllbnQlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "5670",
+      "title": "king",
+      "deal": "On sale",
+      "type": "Appatment",
+      "bed": "23",
+      "district": "kiambu",
+      "price": "122",
+      "photo": "1223"
+    },
+    {
+      "id": "94c5",
+      "title": "wajose",
+      "deal": "sold",
+      "type": "Appatment",
+      "bed": "2",
+      "district": "Nairobi",
+      "price": "1",
+      "photo": "https://images.unsplash.com/photo-1529589585661-8fb5cdc75c48?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNvbWUlMjBkYXJrJTIwZ3JhZGllbnQlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "4057",
+      "title": "TSAVO",
+      "deal": "On sale",
+      "type": "Appatment",
+      "rooms": "2",
+      "district": "Turkana",
+      "price": "21",
+      "photo": "2"
+    }
+  ]
+}
