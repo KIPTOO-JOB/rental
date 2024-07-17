@@ -81,3 +81,22 @@ document.addEventListener("DOMContentLoaded", () => {
 		landlordForm.style.display = "block"; // Show the form
 	});
 });
+
+// Navbar For mobile
+
+const hamburger = document.getElementById("hamburger");
+const menu = document.querySelector(".menu");
+
+hamburger.addEventListener("click", function () {
+	const hamIcon = document.querySelector(".hamburger-icon");
+	const crossIcon = document.querySelector(".cross-icon");
+	if (hamIcon.style.display === "none") {
+		hamIcon.style.display = "inline-block";
+		menu.style.display = "none";
+		crossIcon.style.display = "none";
+	} else {
+		crossIcon.style.display = "inline-block";
+		hamIcon.style.display = "none";
+		menu.style.display = "block";
+	}
+});
