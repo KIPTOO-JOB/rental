@@ -14,6 +14,7 @@ const renderProperty = (property) => {
 
 	const details = `
     <div>
+
 	  <h1>${property.title}</h1>
     <h3>${property.deal}</h3>
     <h3>${property.type}</h3>
@@ -75,15 +76,14 @@ form.addEventListener("submit", (event) => {
 // Show the form when the landlord button is clicked
 document.addEventListener("DOMContentLoaded", () => {
 	const landlordButton = document.getElementById("landlordButton");
-	const landlordForm = document.getElementById("landlordForm");
+	const landLordForm = document.getElementById("landLordForm");
 
 	landlordButton.addEventListener("click", () => {
-		landlordForm.style.display = "block"; // Show the form
+		landLordForm.style.display = "block"; // Show the form
 	});
 });
 
 // Navbar For mobile
-
 const hamburger = document.getElementById("hamburger");
 const menu = document.querySelector(".menu");
 
@@ -92,11 +92,11 @@ hamburger.addEventListener("click", function () {
 	const crossIcon = document.querySelector(".cross-icon");
 	if (hamIcon.style.display === "none") {
 		hamIcon.style.display = "inline-block";
-		menu.style.display = "none";
 		crossIcon.style.display = "none";
+		menu.style.display = "none";
 	} else {
-		crossIcon.style.display = "inline-block";
 		hamIcon.style.display = "none";
+		crossIcon.style.display = "inline-block";
 		menu.style.display = "block";
 	}
 });
