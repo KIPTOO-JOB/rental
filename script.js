@@ -1,5 +1,5 @@
 console.log("hell ");
-const url = "http://localhost:3000/property";
+const url = "https://estate-db.vercel.app/property";
 
 fetch(url)
 	.then((res) => res.json())
