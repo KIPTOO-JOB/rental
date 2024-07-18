@@ -13,21 +13,15 @@ const renderProperty = (property) => {
 	divCard.className = "divCard";
 
 	const details = `
-    <div>
-
-	  <h1>${property.title}</h1>
-    <h3>${property.deal}</h3>
-    <h3>${property.type}</h3>
-    <h3>${property.rooms}</h3>
-    <h3>KSH$${property.price}</h3>
-    
-
-        
+    <div class="property-container">
+        <h1>${property.title}</h1>
+        <h3>${property.deal}</h3>
+        <h3>${property.type}</h3>
+        <h3>${property.rooms}</h3>
+        <h3>KSH$${property.price}</h3>        
         <div class="imageDiv">
             <img src=${property.photo} alt="${property.title}">
         </div>
-
-
     </div>
     `;
 	divCard.innerHTML = details;
@@ -72,6 +66,11 @@ form.addEventListener("submit", (event) => {
 	})
 		.then((res) => res.json())
 		.then((property) => renderProperty(property));
+	form.reset();
+	// Reload the page after a short delay to allow rendering the new property
+	// setTimeout(() => {
+	// 	location.reload();
+	// }, 1000);
 });
 // Show the form when the landlord button is clicked
 document.addEventListener("DOMContentLoaded", () => {
