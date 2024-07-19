@@ -15,11 +15,11 @@ const renderProperty = (property) => {
 
 	const details = `
     <div class="property-container">
-        <h1>${property.title}</h1>
-        <h3>${property.deal}</h3>
-        <h3>${property.type}</h3>
-        <h3>${property.rooms}</h3>
-        <h3>KSH$${property.price}</h3>        
+        <h1> <i class="fa-solid fa-location-dot"></i> :  ${property.title} </h1>
+        <h3> <i class="fa-solid fa-money-bill"></i> : ${property.deal} </h3>
+        <h3> <i class="fa-solid fa-house-user"></i> : ${property.type} </h3>
+        <h3>  <i class="fa-solid fa-bed"></i> : ${property.rooms} </h3>
+        <h3> <i class="fa-solid fa-sack-dollar"></i> :  ${property.price} </h3>        
         <div class="imageDiv">
             <img src=${property.photo} alt="${property.title}">
         </div>
