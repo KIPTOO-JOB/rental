@@ -12,7 +12,7 @@ Welcome to the Kejani Real Estate Platform! This project is a web-based applicat
 ## Features
 
 - View a list of real estate properties.
-- Add new properties via a form.
+- Add new properties via a form if you are the Land lord.
 - Responsive design for mobile and desktop views.
 - Interactive navigation menu for easy access to different sections.
 
@@ -22,3 +22,7 @@ Welcome to the Kejani Real Estate Platform! This project is a web-based applicat
    ```bash
    git clone https://github.com/yourusername/kejani-real-estate.git
    ```
+
+## MY LIVE LINK
+
+(CLICK ME :) )[rental-ruddy-theta.vercel.app]
