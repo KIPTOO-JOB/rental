@@ -4,13 +4,10 @@ Welcome to the Kejani Real Estate Platform! This project is a web-based applicat
 
 ## Features
 
-- [x] [LandLord Can enter his details]
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [x] View a list of real estate properties.
+- [x] Add new properties via a form.
+- [x] Responsive design for mobile and desktop views.
+- [x] Interactive navigation menu for easy access to different sections.
 
 ## Features
 
