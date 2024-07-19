@@ -23,6 +23,6 @@ Welcome to the Kejani Real Estate Platform! This project is a web-based applicat
    git clone https://github.com/yourusername/kejani-real-estate.git
    ```
 
-## HERE IS MY LIVE LINK
+## HERE IS MY LIVE LINK :)
 
 [CLICK ME :)](https://rental-ruddy-theta.vercel.app/)
