@@ -25,4 +25,4 @@ Welcome to the Kejani Real Estate Platform! This project is a web-based applicat
 
 ## HERE IS MY LIVE LINK :)
 
-[CLICK ME :)](https://rental-ruddy-theta.vercel.app/)
+[CLICK ME ](https://rental-ruddy-theta.vercel.app/)
