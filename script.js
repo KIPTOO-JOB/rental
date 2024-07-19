@@ -1,4 +1,5 @@
 console.log("hell ");
+
 const url = "https://estate-db.vercel.app/property";
 
 fetch(url)
@@ -99,3 +100,5 @@ hamburger.addEventListener("click", function () {
 		menu.style.display = "block";
 	}
 });
+
+document.add;
